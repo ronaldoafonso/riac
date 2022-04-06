@@ -24,3 +24,9 @@ users = {
         groups = ["z3n"]
     }
 }
+
+buckets = [
+    "ra-blog-cdn"
+]
+
+blog_host_name = "www.ronaldoafonso.com.br"

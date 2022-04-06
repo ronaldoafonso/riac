@@ -14,3 +14,13 @@ variable "users" {
     description = "AWS IAM users"
     type = map
 }
+
+variable "buckets" {
+    description = "AWS Buckets"
+    type = list
+}
+
+variable "blog_host_name" {
+    description = "Host name for the RA blog."
+    type = string
+}
