@@ -24,3 +24,23 @@ variable "blog_host_name" {
     description = "Host name for the RA blog."
     type = string
 }
+
+variable "vpc_name" {
+    description = "VPC name"
+    type = string
+}
+
+variable "vpc_cidr_block" {
+    description = "VPC CIDR Block"
+    type = string
+}
+
+variable "vpc_subnets" {
+    description = "VPC Subnets"
+    type = map
+}
+
+variable "igw_name" {
+    description = "IGW name"
+    type = string
+}
